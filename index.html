@@ -128,11 +128,10 @@
             transform: scale(1.25);
         }
         
-        /* Hero */
+        /* Hero - Fixed spacing so logo is not hidden */
         .hero {
-            height: 100vh;
-            min-height: 700px;
-            padding-top: 100px;
+            min-height: 100vh;
+            padding: 140px 5% 80px;
             background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
                 url('images/Stary night.jpg') center/cover no-repeat;
             display: flex;
@@ -152,13 +151,6 @@
         
         .hero-logo:hover {
             transform: scale(1.03);
-        }
-        
-        .tagline {
-            font-size: 1.5rem;
-            color: var(--gray);
-            margin-top: 1.5rem;
-            margin-bottom: 1.5rem;
         }
         
         .btn {
@@ -184,7 +176,7 @@
         }
         
         #music {
-            margin-top: 80px;
+            margin-top: 40px;
         }
         
         .section-title {
@@ -194,7 +186,6 @@
             color: var(--accent);
         }
         
-        /* Release Grid */
         .release-grid {
             max-width: 900px;
             margin: 0 auto;
@@ -253,6 +244,10 @@
             
             .hamburger {
                 display: block;
+            }
+            
+            .hero {
+                padding: 120px 5% 60px;
             }
             
             .hero-logo {
